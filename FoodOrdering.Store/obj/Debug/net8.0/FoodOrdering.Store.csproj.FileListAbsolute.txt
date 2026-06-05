@@ -1,0 +1,17 @@
+D:\sysfore\FoodOrdering.Store\obj\Debug\net8.0\FoodOrdering.Store.csproj.AssemblyReference.cache
+D:\sysfore\FoodOrdering.Store\obj\Debug\net8.0\FoodOrdering.Store.GeneratedMSBuildEditorConfig.editorconfig
+D:\sysfore\FoodOrdering.Store\obj\Debug\net8.0\FoodOrdering.Store.AssemblyInfoInputs.cache
+D:\sysfore\FoodOrdering.Store\obj\Debug\net8.0\FoodOrdering.Store.AssemblyInfo.cs
+D:\sysfore\FoodOrdering.Store\obj\Debug\net8.0\FoodOrdering.Store.csproj.CoreCompileInputs.cache
+D:\sysfore\FoodOrdering.Store\bin\Debug\net8.0\FoodOrdering.Store.deps.json
+D:\sysfore\FoodOrdering.Store\bin\Debug\net8.0\FoodOrdering.Store.dll
+D:\sysfore\FoodOrdering.Store\bin\Debug\net8.0\FoodOrdering.Store.pdb
+D:\sysfore\FoodOrdering.Store\bin\Debug\net8.0\FoodOrdering.Common.dll
+D:\sysfore\FoodOrdering.Store\bin\Debug\net8.0\FoodOrdering.Data.dll
+D:\sysfore\FoodOrdering.Store\bin\Debug\net8.0\FoodOrdering.Common.pdb
+D:\sysfore\FoodOrdering.Store\bin\Debug\net8.0\FoodOrdering.Data.pdb
+D:\sysfore\FoodOrdering.Store\obj\Debug\net8.0\FoodOrde.2D66F174.Up2Date
+D:\sysfore\FoodOrdering.Store\obj\Debug\net8.0\FoodOrdering.Store.dll
+D:\sysfore\FoodOrdering.Store\obj\Debug\net8.0\refint\FoodOrdering.Store.dll
+D:\sysfore\FoodOrdering.Store\obj\Debug\net8.0\FoodOrdering.Store.pdb
+D:\sysfore\FoodOrdering.Store\obj\Debug\net8.0\ref\FoodOrdering.Store.dll
