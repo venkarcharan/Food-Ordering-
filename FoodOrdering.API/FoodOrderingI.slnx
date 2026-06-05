@@ -1,7 +1,0 @@
-<Solution>
-  <Project Path="../FoodOrdering.Common/FoodOrdering.Common.csproj" />
-  <Project Path="../FoodOrdering.Data/FoodOrdering.Data.csproj" />
-  <Project Path="../FoodOrdering.Service/FoodOrdering.Service.csproj" />
-  <Project Path="../FoodOrdering.Store/FoodOrdering.Store.csproj" />
-  <Project Path="FoodOrdering.API.csproj" />
-</Solution>
