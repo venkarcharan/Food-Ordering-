@@ -1,0 +1,11 @@
+D:\sysfore\FoodOrdering.Common\bin\Debug\net8.0\FoodOrdering.Common.deps.json
+D:\sysfore\FoodOrdering.Common\bin\Debug\net8.0\FoodOrdering.Common.dll
+D:\sysfore\FoodOrdering.Common\bin\Debug\net8.0\FoodOrdering.Common.pdb
+D:\sysfore\FoodOrdering.Common\obj\Debug\net8.0\FoodOrdering.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\sysfore\FoodOrdering.Common\obj\Debug\net8.0\FoodOrdering.Common.AssemblyInfoInputs.cache
+D:\sysfore\FoodOrdering.Common\obj\Debug\net8.0\FoodOrdering.Common.AssemblyInfo.cs
+D:\sysfore\FoodOrdering.Common\obj\Debug\net8.0\FoodOrdering.Common.csproj.CoreCompileInputs.cache
+D:\sysfore\FoodOrdering.Common\obj\Debug\net8.0\FoodOrdering.Common.dll
+D:\sysfore\FoodOrdering.Common\obj\Debug\net8.0\refint\FoodOrdering.Common.dll
+D:\sysfore\FoodOrdering.Common\obj\Debug\net8.0\FoodOrdering.Common.pdb
+D:\sysfore\FoodOrdering.Common\obj\Debug\net8.0\ref\FoodOrdering.Common.dll
