@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FoodOrdering.API</name>
+    </assembly>
+    <members>
+        <member name="T:FoodOrdering.API.Controllers.AdminController">
+            <summary>
+            Provides administrative operations for managing food items.
+            Only users with Admin role are authorized to access these APIs.
+            </summary>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.AdminController.#ctor(FoodOrdering.Service.Abstractions.IFoodItemService,Microsoft.Extensions.Logging.ILogger{FoodOrdering.API.Controllers.AdminController})">
+            <summary>
+            Initializes a new instance of the AdminController class.
+            </summary>
+            <param name="foodItemService">Food item service instance.</param>
+            <param name="logger">Logger instance for recording application logs.</param>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.AdminController.AddAsync(FoodOrdering.Common.Models.CreateFoodItemRequest)">
+            <summary>
+            Asynchronously adds a new food item to the system.
+            </summary>
+            <param name="request">Food item details.</param>
+            <returns>Success response containing operation result.</returns>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.AdminController.BulkInsertAsync(System.Collections.Generic.List{FoodOrdering.Common.Models.FoodItem})">
+            <summary>
+            Asynchronously inserts multiple food items into the system.
+            </summary>
+            <param name="foodItems">List of food items.</param>
+            <returns>Bulk insert result.</returns>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.AdminController.UpdateAsync(FoodOrdering.Common.Models.FoodItem)">
+            <summary>
+            Asynchronously updates an existing food item.
+            </summary>
+            <param name="foodItem">Updated food item information.</param>
+            <returns>Update result.</returns>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.AdminController.DeleteByGuidAsync(System.Guid)">
+            <summary>
+            Asynchronously deletes a food item using its GUID.
+            </summary>
+            <param name="foodItemGuid">Food Item GUID.</param>
+            <returns>Delete result.</returns>
+        </member>
+        <member name="T:FoodOrdering.API.Controllers.AuthController">
+            <summary>
+            Handles user authentication and authorization operations.
+            Provides APIs for user login and retrieving current user details.
+            </summary>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.AuthController.#ctor(FoodOrdering.API.Utilities.JwtHelper,FoodOrdering.Service.Abstractions.IUserService)">
+            <summary>
+            Initializes a new instance of the AuthController class.
+            </summary>
+            <param name="jwtHelper">JWT helper used for token generation.</param>
+            <param name="userService">User service used for user-related operations.</param>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.AuthController.Login(FoodOrdering.Common.Models.LoginRequest)">
+            <summary>
+            Authenticates the user using email and password.
+            Generates and returns a JWT token upon successful login.
+            </summary>
+            <param name="request">Login request containing email and password.</param>
+            <returns>JWT token and user details if authentication is successful.</returns>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.AuthController.CurrentUser">
+            <summary>
+            Retrieves details of the currently authenticated user.
+            Information is extracted from JWT token claims.
+            </summary>
+            <returns>Current user's UserGuid and Role.</returns>
+        </member>
+        <member name="T:FoodOrdering.API.Controllers.UserController">
+            <summary>
+            Provides food item retrieval operations for authenticated users.
+            Both Admin and User roles are authorized to access these APIs.
+            </summary>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.UserController.#ctor(FoodOrdering.Service.Abstractions.IFoodItemService,Microsoft.Extensions.Logging.ILogger{FoodOrdering.API.Controllers.UserController})">
+            <summary>
+            Initializes a new instance of UserController.
+            </summary>
+            <param name="foodItemService">Food item service instance.</param>
+            <param name="logger">Logger instance.</param>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.UserController.GetAllAsync">
+            <summary>
+            Asynchronously retrieves all available food items.
+            </summary>
+            <returns>List of all food items.</returns>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.UserController.GetAllPaginationAsync(System.Int32,System.Int32)">
+            <summary>
+            Asynchronously retrieves food items using pagination.
+            </summary>
+            <param name="pageNumber">Current page number.</param>
+            <param name="pageSize">Number of records per page.</param>
+            <returns>Paginated list of food items.</returns>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.UserController.GetFilteredAsync(System.String,System.String)">
+            <summary>
+            Asynchronously retrieves food items based on filter criteria.
+            </summary>
+            <param name="foodName">Food name filter.</param>
+            <param name="category">Food category filter.</param>
+            <returns>Filtered list of food items.</returns>
+        </member>
+        <member name="M:FoodOrdering.API.Controllers.UserController.GetByGuidAsync(System.Guid)">
+            <summary>
+            Asynchronously retrieves a food item using its GUID value.
+            </summary>
+            <param name="foodItemGuid">Food Item GUID.</param>
+            <returns>Food item details.</returns>
+        </member>
+    </members>
+</doc>
